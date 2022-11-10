@@ -14,6 +14,7 @@ module counter #(
       cnt <= cnt + 1;
     end
   end
-
+  // TODO
+  // documentation
   assign counted = (cnt == COUNT_NUM) ? 1 : 0; 
 endmodule
